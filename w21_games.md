@@ -16,9 +16,17 @@ I will use an array of blocks for the blocks; probably a 2d array where each row
 
 # Space Invaders
 ## What is the purpose of the game?
+The purpose of the game is to kill all the aliens on the top of the screen, through the obstacles.
 ## What element(s) are controlled by the player?
+The spaceship is controlled by the player, as well as when to shoot (the bullets)
 ## What element(s) are controlled by the computer?
+The movement of the aliens, and when the aliens shoot
 ## How does the player control their element.
+The left right arrow keys are used to move the spaceship, and the space key is used to shoot.
 ## How do the non-player controlled elements behave (movement, positions, randomness, etc)
+Aliens move accross the screen and then down the screen. The shooting looks random. The position of the obstacles is constant unless destroyed by bullets, in which they disappear 
 ## If you were to program this, what classes would you write?
+Class obstacle, class aliens, class bullet, class spaceship 
 ## If you were to program this, would you use an array for some parts? What kind of array? What would you be storing in it?
+
+Use the 2d array for the aliens the same way as the array for the blocks in Breakout. The obstacles can have an array as well
